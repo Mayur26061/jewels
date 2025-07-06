@@ -29,21 +29,21 @@ const products = [
         name: "Gold Necklace",
         description: "22K gold, handcrafted design.",
         price: "₹25,000",
-        image: "https://ratnalayajewels.com/wp-content/uploads/2024/09/2.jpg",
+        image: "/img/goldNecklace.jpg",
     },
     {
         id: 13,
         name: "Diamond Ring",
         description: "White gold with solitaire diamond.",
         price: "₹40,000",
-        image: "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/daffney1-n/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/stone3/diamond-Brillant_AAA/alloycolour/yellow.jpg",
+        image: "/img/dimondRing.avif",
     },
     {
         id: 14,
         name: "Silver Bracelet",
         description: "Sterling silver with charms.",
         price: "₹5,500",
-        image: "https://media.landmarkshops.in/cdn-cgi/image/h=550,w=550,q=85,fit=cover/lifestyle/1000014154376-1000014154375_01-2100.jpg",
+        image: "/img/silverBracelet.jpg",
     },
     // Add more products here...
 ];
