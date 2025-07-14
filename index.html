@@ -15,84 +15,58 @@
     <link rel="manifest" href="favicon/site.webmanifest">
 </head>
 
-<body class="text-gray-800 bg-white font-sans">
+<body class="text-gray-900 bg-zinc-50 font-sans">
     <nav class="bg-white shadow sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
             <a href="#home" class="flex items-center space-x-2">
                 <img src="img/logo.png" alt="Gleamora Jewels Logo" class="h-10 w-20 object-cover">
             </a>
             <div class="hidden md:flex space-x-6 text-base">
-                <a href="#home" class="text-gray-700 hover:text-yellow-700">Home</a>
-                <a href="#products" class="text-gray-700 hover:text-yellow-700">Products</a>
-                <a href="#about" class="text-gray-700 hover:text-yellow-700">About</a>
-                <a href="#contact" class="text-gray-700 hover:text-yellow-700">Contact</a>
+                <a href="#home" class="text-gray-800 hover:text-amber-700">Home</a>
+                <a href="#products" class="text-gray-800 hover:text-amber-700">Products</a>
+                <a href="#about" class="text-gray-800 hover:text-amber-700">About</a>
+                <a href="#contact" class="text-gray-800 hover:text-amber-700">Contact</a>
             </div>
-
-            <!-- Hamburger Button (mobile only) -->
-            <button id="menu-btn" class="block md:hidden text-yellow-800 text-2xl focus:outline-none">
+            <button id="menu-btn" class="block md:hidden text-amber-700 text-2xl focus:outline-none">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
-
-        <!-- 🔽 Mobile Menu (Separate Block) -->
         <div id="mobile-menu" class="md:hidden hidden px-6 pb-4 space-y-4 bg-white shadow">
-            <a href="#home" class="block text-gray-700 hover:text-yellow-700">Home</a>
-            <a href="#products" class="block text-gray-700 hover:text-yellow-700">Products</a>
-            <a href="#about" class="block text-gray-700 hover:text-yellow-700">About</a>
-            <a href="#contact" class="block text-gray-700 hover:text-yellow-700">Contact</a>
+            <a href="#home" class="block text-gray-800 hover:text-amber-700">Home</a>
+            <a href="#products" class="block text-gray-800 hover:text-amber-700">Products</a>
+            <a href="#about" class="block text-gray-800 hover:text-amber-700">About</a>
+            <a href="#contact" class="block text-gray-800 hover:text-amber-700">Contact</a>
         </div>
     </nav>
 
-    <!-- ✅ Hero Section
-    <section id="home" class="bg-yellow-100 text-center py-20 px-4">
-        <h1 class="text-5xl font-extrabold text-yellow-800 mb-4">✨ Gleamora Jewels ✨</h1>
-        <p class="text-xl text-gray-700 mb-6 max-w-2xl mx-auto">
-            Discover handcrafted elegance. Pure gold, stunning diamonds, and timeless silver treasures.
-        </p>
-        <a href="#products"
-            class="bg-yellow-600 text-white px-8 py-3 rounded-full text-lg hover:bg-yellow-700 transition">
-            Explore Collection
-        </a>
-    </section> -->
-    <!-- Hero Carousel Section -->
     <section id="home" class="relative w-full h-[80vh] overflow-hidden">
-        <!-- Image Wrapper -->
-        <!-- <div id="carousel-images" class="absolute inset-0 w-full h-full">
-     -->
         <div id="carousel-track" class="flex transition-transform duration-700 ease-in-out h-full">
-            <!-- Images (1st visible, others hidden) -->
             <img src="img/rings/goldearings.jpeg" class="w-full flex-shrink-0 object-cover h-full" />
-            <!-- class="carousel-img absolute w-full h-full object-cover opacity-100 transition-opacity duration-1000"> -->
             <img src="img/rings/shapering.jpeg" class="w-full flex-shrink-0 object-cover h-full" />
-            <!-- class="carousel-img absolute w-full h-full object-cover opacity-0 transition-opacity duration-1000"> -->
             <img src="img/rings/shapering.jpeg" class="w-full flex-shrink-0 object-cover h-full" />
-            <!-- class="carousel-img absolute w-full h-full object-cover opacity-0 transition-opacity duration-1000"> -->
         </div>
-
-        <!-- Optional Overlay Content -->
-        <div class="absolute inset-0 bg-black/30 flex flex-col justify-center items-center text-white text-center px-4">
+        <div class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-white text-center px-4">
             <h1 class="text-4xl md:text-6xl font-bold mb-4">Discover Elegant Jewelry</h1>
             <p class="text-lg md:text-xl mb-6">Timeless Designs. Handcrafted Beauty.</p>
             <a href="#products"
-                class="px-6 py-3 bg-yellow-600 hover:bg-yellow-700 text-white rounded-lg font-medium shadow">
+                class="px-6 py-3 bg-amber-600 hover:bg-amber-700 text-white rounded-lg font-medium shadow-lg">
                 Explore Collection
             </a>
         </div>
     </section>
 
-    <!-- Products Section -->
     <section id="products" class="max-w-6xl mx-auto px-4 py-16">
-        <h2 class="text-3xl font-bold text-center mb-10">Featured Collection</h2>
+        <h2 class="text-3xl font-bold text-center mb-10 text-amber-800">Featured Collection</h2>
         <div id="product-container" class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Product Card -->
 
         </div>
     </section>
 
+
     <!-- About Section -->
-    <section class="bg-yellow-50 py-16 px-4 text-center" id="about">
-        <h2 class="text-3xl font-bold mb-4">About Us</h2>
-        <p class="max-w-3xl mx-auto text-gray-600 text-lg">
+    <section class="bg-amber-50 py-16 px-4 text-center" id="about">
+        <h2 class="text-3xl font-bold mb-4 text-amber-800">About Us</h2>
+        <p class="max-w-3xl mx-auto text-gray-700 text-lg">
             Gleamora E-commerce has been crafting timeless beauty for over 25 years. Our
             artisans blend tradition with elegance to bring you fine gold, diamond,
             and silver jewelry that speaks from the heart.
@@ -102,14 +76,13 @@
     <!-- Return Policy Section -->
     <section id="return-policy" class="bg-white py-16 px-4 border-t border-gray-200">
         <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-6 text-yellow-800">Returns & Exchanges</h2>
+            <h2 class="text-3xl font-bold mb-6 text-amber-800">Returns & Exchanges</h2>
             <p class="text-lg text-gray-700 mb-10">
                 We want you to love what you buy. If you're not completely satisfied, we're here to help.
             </p>
         </div>
 
         <div class="max-w-3xl mx-auto space-y-8 text-gray-600 text-base leading-relaxed">
-
             <div>
                 <h3 class="font-semibold text-lg text-gray-800 mb-2">15-Day Return & Exchange</h3>
                 <p>
@@ -165,7 +138,7 @@
     <!-- Privacy Policy Section -->
     <section id="privacy-policy" class="bg-white py-16 px-4 border-t border-gray-200">
         <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-6 text-yellow-800">Privacy Policy</h2>
+            <h2 class="text-3xl font-bold mb-6 text-amber-800">Privacy Policy</h2>
             <p class="text-lg text-gray-700 mb-10">
                 We respect your privacy and are committed to protecting your personal information.
             </p>
@@ -219,7 +192,7 @@
     <!-- Terms of Service Section -->
     <section id="terms-of-service" class="bg-white py-16 px-4 border-t border-gray-200">
         <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-6 text-yellow-800">Terms of Service</h2>
+            <h2 class="text-3xl font-bold mb-6 text-amber-800">Terms of Service</h2>
             <p class="text-lg text-gray-700 mb-10">
                 Please review our terms before making a purchase or inquiry.
             </p>
@@ -275,8 +248,8 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="bg-yellow-50 py-16 px-4 text-center" id="contact">
-        <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+    <section class="bg-amber-50 py-16 px-4 text-center" id="contact">
+        <h2 class="text-3xl font-bold mb-6 text-amber-800">Get in Touch</h2>
         <p class="text-gray-700 mb-10 max-w-xl mx-auto">
             We'd love to hear from you! Whether you want to make a custom order,
             inquire about a product, or just say hello — connect with us through
@@ -284,9 +257,8 @@
         </p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto text-left">
-            <!-- Call -->
             <div class="flex items-center gap-4 p-4 bg-white rounded-lg shadow">
-                <i class="fas fa-phone text-yellow-600 text-2xl"></i>
+                <i class="fas fa-phone text-amber-600 text-2xl"></i>
                 <div>
                     <p class="font-semibold">Call Us</p>
                     <a href="tel:+917738789682" class="text-blue-600 hover:underline">+91 77387 89682</a>
@@ -295,7 +267,7 @@
             <!-- WhatsApp -->
 
             <div class="flex items-center gap-4 p-4 bg-white rounded-lg shadow">
-                <i class="fab fa-whatsapp text-yellow-600 text-2xl"></i>
+                <i class="fab fa-whatsapp text-emerald-600 text-2xl"></i>
                 <div>
                     <p class="font-semibold">WhatsApp</p>
                     <a href="https://wa.me/917738789682" target="_blank" class="text-green-600 hover:underline">Chat
@@ -304,8 +276,8 @@
             </div>
 
             <!-- Email -->
-            <div class="flex items-center gap-4 p-4 bg-white rounded-lg shadow text-wrap">
-                <i class="fas fa-envelope text-yellow-600 text-2xl"></i>
+            <div class="flex items-center gap-4 p-4 bg-white rounded-lg shadow">
+                <i class="fas fa-envelope text-indigo-600 text-2xl"></i>
                 <div>
                     <p class="font-semibold">Email</p>
                     <a href="mailto:gleamoraecommercetradingpvtltd@gmail.com"
@@ -315,7 +287,7 @@
 
             <!-- Directions -->
             <div class="flex items-center gap-4 p-4 bg-white rounded-lg shadow">
-                <i class="fas fa-map-marker-alt text-yellow-600 text-2xl"></i>
+                <i class="fas fa-map-marker-alt text-rose-500 text-2xl"></i>
                 <div>
                     <p class="font-semibold">Visit Us</p>
                     <p>
@@ -328,14 +300,14 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-yellow-100 py-6 text-center text-gray-700 text-sm shadow-2xl border">
-        <div class="mb-2 capitalize">© 2025 Gleamora e-commerce trading pvt ltd.<br /> All rights reserved.</div>
+    <footer class="bg-amber-100 py-6 text-center text-gray-700 text-sm shadow-2xl border">
+        <div class="mb-2 capitalize">© 2025 Gleamora e-commerce trading pvt ltd.</div>
         <div class="flex justify-center gap-4 text-sm flex-col md:flex-row">
             <a href="#return-policy" class="hover:underline">Return Policy</a>
             <a href="#privacy-policy" class="hover:underline">Privacy Policy</a>
             <a href="#terms-of-service" class="hover:underline">Terms of Service</a>
             <a href="mailto:gleamoraecommercetradingpvtltd@gmail.com"
-                class="hover:underline">gleamoraecommercetradingpvtltd@gmail.com</a>
+                class="hover:underline text-indigo-700">gleamoraecommercetradingpvtltd@gmail.com</a>
         </div>
     </footer>
 </body>
